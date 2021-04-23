@@ -3,10 +3,10 @@ package com.selvasankari;
 import java.time.LocalDate;
 
 public class SeniorCitizen {
-	public static int finalAmountCalculation(String dobstr)
+	public static int finalAmountCalculation(String dob)
 	{
         //check the person who travel is senior citizen or not
-		LocalDate dateOfBirth = LocalDate.parse(dobstr);
+		LocalDate dateOfBirth = LocalDate.parse(dob);
 		LocalDate currentDate = LocalDate.now();
 		int dobYear=dateOfBirth.getYear();
 		int currentYear=currentDate.getYear();
