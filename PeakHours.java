@@ -3,9 +3,9 @@ package com.selvasankari;
 import java.time.LocalTime;
 
 public class PeakHours {
-	public static int excessRate(String travelTime)
+	public static int peakHoursCharges(String travelTime)
 	{
-		//check travelling time is peak hur or not
+		//check traveling time is peak hour or not
 		LocalTime cabPickUpTime= LocalTime.parse(travelTime);		
 		int hour = cabPickUpTime.getHour();
 		//System.out.println("Hour:"+hour);
